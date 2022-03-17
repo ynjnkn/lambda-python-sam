@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "lambda-python-sam"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-meevkefo9kjh"
+s3_prefix = "lambda-python-sam"
+region = "ap-northeast-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
